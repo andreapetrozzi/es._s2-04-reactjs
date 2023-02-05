@@ -32,8 +32,8 @@ Add Redux to your project.
 
 ### Terminal Command: 
 - `npm i bootstrap@4.6.1`;
-- `npm i react-bootstrap@1.6.5;
-- `npm i react-router-dom;
+- `npm i react-bootstrap@1.6.5`;
+- `npm i react-router-dom`;
 - `npm i @reduxjs/toolkit`;
 - `npm i react-redux`-
    
