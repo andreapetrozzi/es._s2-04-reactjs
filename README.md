@@ -1,43 +1,41 @@
-a search engine for remote job vacancies.
+### Description 
+A search engine for remote job vacancies.
 
 Here is a brief summary of how the application works:
 on the main page the user can search for the desired position,
 getting results.
 
 In this list of results, by clicking on the name of a company
-you are redirected to a /:company page
+you are redirected to a `/:company page`
 where all the job postings of that specific company are listed.
 
-
-     Available APIs:
-
-     https://strive-benchmark.herokuapp.com/api/jobs?search=developer&limit=10
-     https://strive-benchmark.herokuapp.com/api/jobs?company=Olla
-     https://strive-benchmark.herokuapp.com/api/jobs?category=writing&limit=10
+Available APIs:
+- https://strive-benchmark.herokuapp.com/api/jobs?search=developer&limit=10
+- https://strive-benchmark.herokuapp.com/api/jobs?company=Olla
+- https://strive-benchmark.herokuapp.com/api/jobs?category=writing&limit=10
 
      
 Add Redux to your project.
-TASKS:
 
-         1. Implement the Redux pattern in your application, with a store and a reducer.
+### TASKS:
+1. Implement the Redux pattern in your application, with a store and a reducer.
 
-         2. Provide the user with the ability to add a company to a favorites list.
-            There is no limit to the number of companies that can be added to your favourites
-            This favorites list must be saved entirely in the Redux Store, and rendered
-as a list on a separate page (e.g. on a /favourites route).
+2. Provide the user with the ability to add a company to a favorites list.
+   There is no limit to the number of companies that can be added to your favourites
+   This favorites list must be saved entirely in the Redux Store, and rendered
+   as a list on a separate page (e.g. on a /favourites route).
 
-         3. Don't forget that the list rendered at /favourites
-must have the company name clickable as on the main page.
+3. Don't forget that the list rendered at /favourites
+   must have the company name clickable as on the main page.
 
-[EXTRA]
-         4. Also allow the user to remove a company from the favorites list.
+4. Also allow the user to remove a company from the favorites list.
 
-// TERMINAL:
-   // npm i bootstrap@4.6.1
-   // npm i react-bootstrap@1.6.5
-   // npm i react-router-dom
-   // npm i @reduxjs/toolkit
-   // npm i react-redux
+### Terminal Command: 
+- `npm i bootstrap@4.6.1`;
+- `npm i react-bootstrap@1.6.5;
+- `npm i react-router-dom;
+- `npm i @reduxjs/toolkit`;
+- `npm i react-redux`-
    
    
    
